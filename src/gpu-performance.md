@@ -2,6 +2,19 @@
 toc: false
 ---
 
+<div class="portaljs-banner">
+  <div class="portaljs-banner-content">
+    <span class="portaljs-banner-icon">🌀</span>
+    <div class="portaljs-banner-text">
+      <p class="portaljs-banner-title">Create beautiful data portals with PortalJS</p>
+      <p class="portaljs-banner-description">The open-source framework for building data catalogs, dashboards, and visualizations.</p>
+    </div>
+  </div>
+  <a href="https://www.portaljs.com/" target="_blank" rel="noopener noreferrer" class="portaljs-banner-cta">
+    Get Started Free <span class="portaljs-banner-cta-arrow">→</span>
+  </a>
+</div>
+
 ```js
 const apiScores = FileAttachment("data/gpu_api_scores.csv").csv({typed: true});
 const benchmarks = FileAttachment("data/gpu_benchmarks.csv").csv({typed: true});
