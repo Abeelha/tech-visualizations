@@ -431,6 +431,27 @@ form, form * {
   margin-top: 4px;
 }
 
+.chart-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.chart-container-full {
+  background: var(--color-background-card);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--card-shadow);
+  border-radius: var(--card-radius);
+  padding: var(--spacing-md);
+}
+
+.chart-container-full h3 {
+  margin: 0 0 var(--spacing-sm) 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
 footer {
   width: 100% !important;
 }
