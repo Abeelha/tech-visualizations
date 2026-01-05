@@ -87,10 +87,7 @@ const perfByYear = d3.rollups(
 const colorMap = { "NVIDIA": "#76b900", "AMD": "#ed1c24", "Intel": "#0071c5" };
 ```
 
-<div class="hero-large">
-  <h1>GPU Performance & Pricing Data Portal</h1>
-  <p>Explore comprehensive GPU benchmarks, performance comparisons across graphics APIs, pricing trends, and market forecasts.</p>
-</div>
+
 
 <div class="key-stats">
   <div class="key-stat">
