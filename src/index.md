@@ -2,17 +2,6 @@
 toc: false
 ---
 
-<div class="portaljs-banner">
-  <div class="portaljs-banner-content">
-    <div class="portaljs-banner-text">
-      <p class="portaljs-banner-title">Create beautiful data portals with PortalJS 🌀</p>
-    </div>
-  </div>
-  <a href="https://www.portaljs.com/" target="_blank" class="portaljs-banner-cta">
-    Get started free
-  </a>
-</div>
-
 ```js
 const benchmarks = FileAttachment("data/gpu_benchmarks.csv").csv({typed: true});
 const apiScores = FileAttachment("data/gpu_api_scores.csv").csv({typed: true});
