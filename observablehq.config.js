@@ -1,12 +1,12 @@
 export default {
   title: "GPU Performance & Pricing Data Portal",
   pages: [
-    {name: "GPU Performance", path: "/gpu-performance"},
-    {name: "Price vs Performance", path: "/price-performance"},
-    {name: "NVIDIA Releases", path: "/nvidia-releases"}
+    { name: "GPU Performance", path: "/gpu-performance" },
+    { name: "Price vs Performance", path: "/price-performance" },
+    { name: "NVIDIA Releases", path: "/nvidia-releases" }
   ],
   head: `
-  <link rel="icon" href="observable.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="portaljs.svg" type="image/svg+xml">
   <script>
     sessionStorage.setItem("observablehq-sidebar", "false");
   </script>
